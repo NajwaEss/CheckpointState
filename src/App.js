@@ -15,9 +15,8 @@ class App extends React.Component{
   constructor(props) {
    super(props);
    this.state={
-    fullName:'Hajar ',
-     bio:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-     profession:"my Profession ",
+    fullName:'ESSAFI Najwa ',
+     bio:"heyy! I am ESSAFI Najwa ",
      imgsrc:image,
      shows:false,
      style:{display:"none"}
@@ -25,9 +24,8 @@ class App extends React.Component{
  }
     componentDidMount() {
         this.timerID = setInterval(() => this.setState({
-            fullName:'HajarDl ',
-            bio:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-            profession:"my Profession2 ",
+            fullName:'ESSAFI Najwa ',
+            bio:"heyy! I am ESSAFI Najwa ",
             imgsrc:image,
         }), 1000);
             console.log(this.timerID);
